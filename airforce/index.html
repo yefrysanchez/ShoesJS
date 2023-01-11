@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FashionJS</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body data-barba="wrapper">
+    <header class="nav-header">
+      <h1>
+        <a href="/index.html" id="logo">FashionJS</a>
+      </h1>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+      </div>
+    </header>
+    <main data-barba="container" data-barba-namespace="fashion">
+      <section class="fashion1 detail-slide">
+        <div class="shoes-text">
+          <h1>Nike AF1</h1>
+          <p>
+            The AF1 is the highest-selling athletic shoe of all time, bringing
+            in an estimated $800 million USD each year in revenue. Considering
+            the shoe is in its 35th year, that’s a rough turnover of
+            $28,000,000,000 (yes that is 28 billion!) since its inception.
+          </p>
+        </div>
+        <div class="fashion-img">
+          <img src="/airforce/images/airforce.jpg" alt="model" />
+        </div>
+        <div class="fact-nr"><span>01</span></div>
+      </section>
+      <section class="fashion2 detail-slide">
+        <div class="shoes-text">
+          <h1>Give Me Two Pairs</h1>
+          <p>
+            In 2003 MTV, MTV2 and VH1 collectively banned the video for “Air
+            Force Ones” by St. Louis rapper, Nelly, due to it being deemed too
+            close to an advertisement, given that it included highly excessive
+            product placement. The hook featured Nelly spitting “I said give me
+            two pairs / (cause) I need two pairs / So I can get to stomping in
+            my air force ones / (Big boys) stomping in my air force ones.”
+          </p>
+        </div>
+        <div class="fashion-img">
+          <img src="/airforce/images/airforce-nelly.jpg" alt="model" />
+        </div>
+        <div class="fact-nr"><span>02</span></div>
+      </section>
+      <section class="fashion3 detail-slide">
+        <div class="shoes-text">
+          <h1>Silver Screen Debut</h1>
+          <p>
+            Having touched on songs featuring the Air Force 1, as well as TV appearances, we should also mention there is an official AF1 documentary. In 2010 Nike commissioned agency 360Creative alongside director Thibaut de Longeville to immortalize the shoe on screen. The film was premiered at NYC’s Apollo Theater in the context of Nike’s first “World Basketball Festival.” The doc was screened at exclusive events across the globe and shown on MTV2 during the network’s 1 Night Only special and presented as a series of episodes on Nike’s dedicated 1Thology website.
+          </p>
+        </div>
+        <div class="fashion-img">
+          <img src="/airforce/images/airforce-debut.jpg" alt="model" />
+        </div>
+        <div class="fact-nr"><span>03</span></div>
+      </section>
+    </main>
+    <nav class="nav">
+      <ul class="nav-links">
+        <li class="link"><a href="/index.html">Home</a></li>
+        <li class="link"><a href="#">Portfolio</a></li>
+        <li class="link"><a href="#">LinkedIn</a></li>
+      </ul>
+      <div class="contact">
+        <h2>Stay in touch</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eum quo
+          adipisci quis. Enim dolor quis dolorum minima numquam corporis?
+        </p>
+      </div>
+    </nav>
+    <div class="cursor">
+      <span class="cursor-text"></span>
+    </div>
+    <div class="swipe swipe1"></div>
+    <div class="swipe swipe2"></div>
+    <div class="swipe swipe3"></div>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"
+      integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"
+      integrity="sha512-RvUydNGlqYJapy0t4AH8hDv/It+zKsv4wOQGb+iOnEfa6NnF2fzjXgRy+FDjSpMfC3sjokNUzsfYZaZ8QAwIxg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+      integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"
+      integrity="sha512-5/OHwmQzDSBS0Ous4/hlYoWLHd06/d2r7LdKZQVBXOA6PvOqWVXtdboiLTU7lQTGyVoKVTNkwi0ol4gHGlw5ww=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="/app.js"></script>
+  </body>
+</html>
